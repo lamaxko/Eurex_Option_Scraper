@@ -24,4 +24,5 @@ This Python script scrapes pre-trade options data for Eurex and saves the data i
 The script sets up an SQLite database, downloads data for the specified exchanges, date, and time range, and inserts it into the appropriate tables.
 
 The general data from Deutsche Börese is to find under the following link:
+
 https://www.mds.deutsche-boerse.com/mds-en/real-time-data/Delayed-data 
