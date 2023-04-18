@@ -1,6 +1,6 @@
 # Eurex_Option_Scraper
 
-This Python script scrapes pre-trade options data for Eurex and saves the data into an SQLite database.
+This Python script scrapes pre-trade options data for Eurex and saves the data into an SQLite database. Keep in mind that only the data for the last 48h or last two trading days is available.
 
 ## Usage
 
@@ -22,6 +22,7 @@ This Python script scrapes pre-trade options data for Eurex and saves the data i
     ```
  
 The script sets up an SQLite database, downloads data for the specified exchanges, date, and time range, and inserts it into the appropriate tables.
+
 
 The general data from Deutsche Börese is to find under the following link:
 
